@@ -5,7 +5,7 @@ Python version used 3.7
 
 1) install all requirement
 
-2)Run following in python terminal
+2) Run following in python terminal
 
 import nltk
 nltk.download('punkt')
