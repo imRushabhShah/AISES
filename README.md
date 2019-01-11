@@ -7,8 +7,9 @@ Python version used 3.7
 
 2) Run following in python terminal
 
+```python
 import nltk
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
-
+```
