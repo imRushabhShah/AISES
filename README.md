@@ -1,11 +1,14 @@
 # AISES
 generates and checks descriptive paper
 
-install all requirement
+Python version used 3.7
 
-after installing execute 
+1) install all requirement
 
-  >>> import nltk
-  >>> nltk.download('punkt')
-  >>> nltk.download('averaged_perceptron_tagger')
-  >>> nltk.download('wordnet')
+2)Run following in python terminal
+
+import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
+
