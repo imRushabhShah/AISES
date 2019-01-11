@@ -34,6 +34,7 @@ def anschecking(request):
 # HOMEPAGE RIDIRECTING IF ALREADY LOGGED IN
 def index(request):
     message=''
+    """
     if(models.User.objects.filter(user_id=request.session['user'])):
         user=models.User.objects.get(user_id=request.session['user'])
 
@@ -54,7 +55,8 @@ def index(request):
         elif user.role==3:
             return render(request,'paper/student.html',{'user':user,'message':''})
     else:
-        return render(request,'paper/index.html',{'registermessage':message,'loginmessage':message})
+"""
+    return render(request,'paper/index.html',{'registermessage':message,'loginmessage':message})
 
 
 # REMOVAL OF SESSION
